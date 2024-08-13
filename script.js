@@ -22,8 +22,8 @@ function generatePassword(){
     allowedChars += includeNumbers ? numberChars : "";
     allowedChars += includeSymbols ? symbolChars : "";
 
-    if(length <= 0){
-        window.alert(`Password length must be at least 1!`);
+    if(length <= 0 || length > 40){
+        window.alert(`Password length must be at least 1 and less than 40!`);
         return;
     }
        
