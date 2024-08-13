@@ -1,0 +1,83 @@
+
+.container{
+    text-align: center;
+    background-color: rgb(119, 119, 119);
+    border-radius: 20px;
+    margin: 10px auto;
+    box-shadow: 2px 2px 5px black;
+    max-width: 70%;
+    height: auto;
+    padding: 30px;
+}
+#title{
+    font-family: sans-serif;
+    text-shadow: 1px 1px 2px black;    
+    font-weight: bold;
+    font-size: 2em;
+    color: rgb(81, 255, 0);   
+    
+}
+
+#password{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1.5em;
+    border:  black;
+    padding: 2px;
+    max-width: 70%;
+    margin: 20px auto;
+}
+
+#generate{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 7px 20px;
+    margin: 20px auto;
+    border-radius: 12px;
+    border: none;
+    background-color: aquamarine;
+    box-shadow: 2px 2px 5px black;
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+#generate:hover{
+    transform: scale(1.1, 1.1);
+    background-color: aqua;
+}
+
+.input-elements{
+    display: flex;
+    align-items: center; 
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    padding: 10px; 
+    
+}
+
+.input-objects{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+}
+#passLength{
+    border-radius: 10px;
+    border: none;
+    font-size: 1.1em;
+    font-weight: bold;
+    align-items: center;
+    box-shadow: 1px 1px 2px black;
+    text-align: center;    
+    margin:10px auto;
+}
+.input-elements label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 10px auto;
+    padding-right: 10px;
+    
+}
